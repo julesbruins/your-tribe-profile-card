@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Script font";
+  src:
+    url("../fonts/Caramel.ttf") format("opentype"),
+}
+
 html {
   height: 100vh;
 }
@@ -11,7 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: open sans;
+  font: arial;
   color: #734E40;
 }
 
@@ -42,6 +48,8 @@ header {
 h1 {
   margin: 2rem 0 1rem;
   color: #734E40;
+  font-family: "Script font";
+  font-size: 300%;
 }
 
 button {
